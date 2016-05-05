@@ -63,7 +63,7 @@ function getTile(d, elem) {
     }
   };
 
-  xhttp.open("GET", 'http://aqetpbti8a.execute-api.us-west-2.amazonaws.com/prod/mandelbrotRedirectTile?zoom=' + d[2] + '&coords=(' + d[0] + ',' + d[1] + ')', true);
+  xhttp.open("GET", 'https://aqetpbti8a.execute-api.us-west-2.amazonaws.com/prod/mandelbrotRedirectTile?zoom=' + d[2] + '&coords=(' + d[0] + ',' + d[1] + ')', true);
   xhttp.send();
 }
 
