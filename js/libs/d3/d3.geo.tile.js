@@ -1,6 +1,6 @@
 d3.geo.tile = function() {
   var size = [960, 500],
-      scale = 100,
+      scale = 256,
       translate = [size[0] / 2, size[1] / 2],
       zoomDelta = 0;
 
