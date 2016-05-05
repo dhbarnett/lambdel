@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+  body {
+    margin: 0;
+  }
+
+  .map {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .layer {
+    position: absolute;
+  }
+
+  .tile {
+    pointer-events: none;
+    position: absolute;
+    width: 256px;
+    height: 256px;
+  }
+
+  .info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+</style>
+<body>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+<script src="d3/d3.min.js"></script>
+<script src="d3/d3.geo.tile.js"></script>
+<script src="js/scripts/script.js"></script>
+</body>
+</html>
